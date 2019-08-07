@@ -58,9 +58,13 @@
     }
     .hiddenPart{
         margin-top: -15px;
+        hr{
+            width: 80%;
+        }
         p{
             font-size: 12px;
             margin-top: -10px;
+            margin-left: 5px;
         }
     }
 }
