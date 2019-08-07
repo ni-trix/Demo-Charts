@@ -1,0 +1,30 @@
+
+<div class="userCard">
+    <div class="firstLineCard">
+      <div class="userPart">
+        <input type="checkbox">
+        <span class="badge badge-pill badge-info">Wait.</span>
+        <img src="../../assets/ellipsis-v.png" height="20px" width="20px">
+        <h3>Ella Fitzgerald</h3>
+      </div>
+      <div class="badges">
+      </div>
+    </div>
+    
+    <div class="secondLinePart">
+      <div class="companyPart">
+        <h3>Event Catalyst</h3>
+        <p>--</p>        
+      </div>
+      <button type="button" (click)="displayHiddenPart()" class="iconDropdown">
+        <img src="../../assets/dropdown.png" height="40px" width="40px">
+      </button>
+    </div>
+  
+    <div class="hiddenPart" *ngIf="hiddenPart">
+      <hr>
+      <p>+33 (0)6 58 78 69 63</p>
+      <p>ella.fitzgerald@eventcatalyst.com</p>
+    </div>
+  </div>
+  

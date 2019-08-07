@@ -7,6 +7,9 @@ import { AppComponent } from './app.component';
 import { ChartsModule } from 'ng2-charts';
 import { MyBarChartComponent } from './my-bar-chart/my-bar-chart.component';
 import { ListUsersComponent } from './list-users/list-users.component';
+import { UserCardComponent } from './user-card/user-card.component';
+import { Usercard2Component } from './usercard2/usercard2.component';
+import { Usercard3Component } from './usercard3/usercard3.component';
 
 
 @NgModule({
@@ -14,6 +17,9 @@ import { ListUsersComponent } from './list-users/list-users.component';
     AppComponent,
     MyBarChartComponent,
     ListUsersComponent,
+    UserCardComponent,
+    Usercard2Component,
+    Usercard3Component,
   ],
   imports: [
     BrowserModule,
