@@ -1,0 +1,90 @@
+.userCard{
+    margin-top: 5px;
+    padding: 10px;
+    background-color: rgb(255, 254, 251);
+    .line1{
+        display: flex;
+        justify-content: space-between;
+        h3{
+            font-size: 18px;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        img{
+            cursor: pointer;
+        }
+        .block1{
+            // display: flex;
+            .headerB1{
+                display: flex;
+                .badge{
+                    max-height: 18px;
+                    opacity: 0.7;
+                    margin-left: 10px;
+                    cursor: pointer;
+                }
+                .badges{
+                    margin-left: 50px;
+                    margin-top: -5px;
+                }
+            }
+            .bodyB1{
+                margin-left: 70px;
+                p{
+                    font-size: 16px;
+                    font-weight: bold;
+                    color: rgb(53, 52, 52);
+                }
+                .userContact{
+                    display: flex;
+                    margin-top: -15px;
+                    p{
+                        margin-right: 15px;
+                    }
+                }
+            }
+        }
+        .block2{
+            margin-right: 50px;
+            .headerB2{
+                display: flex;
+            }
+            .bodyB2{
+                p{
+                    font-size: 16px;
+                    font-weight: bold;
+                    color: rgb(53, 52, 52);
+                }
+                .phoneNb{
+                    margin-top: -15px;
+                }
+            }
+        }
+    }
+    hr{
+        margin-top: -5px;
+        width: 98%;
+    }
+    .footer{
+        display: flex;
+        margin-top: -5px;
+        margin-bottom: -10px;
+        font-size: 14px;
+        p{
+            margin-left: 20px;
+            color: rgb(97, 91, 91);
+        }
+        span{
+            margin-left: 8px;
+            color: rgb(26, 24, 24);
+            font-weight: 500;
+        }
+    }
+}
+
+.userCard:hover{
+    border: 3px solid rgb(207, 204, 204);
+}
+
+
+

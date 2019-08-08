@@ -1,16 +1,18 @@
 
 .userCard{
-    border: 2px solid grey;
+    border: 2px solid rgb(207, 204, 204);
     border-left: 5px solid #dc3545;
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     position: relative;
+    animation: mymove 1s;
     .firstLineCard{
-        padding-top: 5px;
+        padding-top: 10px;
         display: flex;
         justify-content: space-between;
         h3{
-            font-size: 18px;
+            color: rgb(105, 102, 102);
+            font-size: 17px;
             text-decoration: underline;
             font-weight: bold;
         }
@@ -32,6 +34,7 @@
             flex-direction: column;
             align-items: flex-end;
             margin-right: 5px;
+            margin-top: -5px;
             span{
                 margin-bottom: 2px;
             }
@@ -41,8 +44,12 @@
         display: flex;
         justify-content: space-between;
         padding-left: 5px;
+        .companyPart{
+            margin-left: 10px;
+        }
         h3{
-            font-size: 16px;
+            color: rgb(105, 102, 102);
+            font-size: 14px;
             text-decoration: underline;
             font-weight: bold;
         }
@@ -54,13 +61,13 @@
             display: flex;
             flex-direction: column-reverse;
             margin-right: 5px;
-            margin-bottom: 10px;
         }
     }
     .hiddenPart{
         margin-top: -15px;
         hr{
             width: 80%;
+            border-top: 2px solid rgb(105, 102, 102);;
         }
         p{
             font-size: 12px;
@@ -74,16 +81,13 @@
     }
 }
 
-.animUser{
-    animation: mymove 1s;
-}
-
-
-
 
 @keyframes mymove {
     0%   {left: 0px;}
-    60%  {left: 50px;}
+    40%  {left: 50px;}
+    60% {left: 0px;}
+    80%  {left: 30px;}
     100% {left: 0px;}
-  }
+}
+
 

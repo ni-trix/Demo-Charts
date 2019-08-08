@@ -10,6 +10,8 @@ import { ListUsersComponent } from './list-users/list-users.component';
 import { UserCardComponent } from './user-card/user-card.component';
 import { Usercard2Component } from './usercard2/usercard2.component';
 import { Usercard3Component } from './usercard3/usercard3.component';
+import { ListUsersDesktopComponent } from './list-users-desktop/list-users-desktop.component';
+import { UserCardDesktopComponent } from './user-card-desktop/user-card-desktop.component';
 
 
 @NgModule({
@@ -20,6 +22,8 @@ import { Usercard3Component } from './usercard3/usercard3.component';
     UserCardComponent,
     Usercard2Component,
     Usercard3Component,
+    ListUsersDesktopComponent,
+    UserCardDesktopComponent,
   ],
   imports: [
     BrowserModule,
