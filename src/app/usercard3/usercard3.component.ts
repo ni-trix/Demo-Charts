@@ -15,6 +15,7 @@ export class Usercard3Component implements OnInit {
     this.hiddenPart = !this.hiddenPart;
   }
 
+
   ngOnInit() {
     this.hiddenPart = false;
   }

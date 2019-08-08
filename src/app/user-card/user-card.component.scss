@@ -4,6 +4,7 @@
     border-left: 5px solid #dc3545;
     width: 90%;
     margin: 0 auto;
+    position: relative;
     .firstLineCard{
         padding-top: 5px;
         display: flex;
@@ -66,7 +67,23 @@
             margin-top: -10px;
             margin-left: 5px;
         }
+        .hiddenPartFooter{
+            display: flex;
+            justify-content: space-between;
+        }
     }
 }
 
+.animUser{
+    animation: mymove 1s;
+}
+
+
+
+
+@keyframes mymove {
+    0%   {left: 0px;}
+    60%  {left: 50px;}
+    100% {left: 0px;}
+  }
 

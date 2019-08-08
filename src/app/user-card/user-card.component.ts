@@ -8,11 +8,16 @@ import { Component, OnInit } from '@angular/core';
 export class UserCardComponent implements OnInit {
 
   hiddenPart: boolean;
+  animUser = false;
 
   constructor() { }
 
   displayHiddenPart() {
     this.hiddenPart = !this.hiddenPart;
+  }
+
+  userSelected() {
+    this.animUser = true;
   }
 
   ngOnInit() {
