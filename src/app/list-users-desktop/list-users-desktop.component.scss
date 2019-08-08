@@ -1,0 +1,10 @@
+.filters{
+    display: flex;
+    background-color: rgb(255, 254, 251);
+    padding: 25px;
+    select{
+        margin-left: 10px;
+        width: 150px;
+        border-radius: 5%;
+    }
+}

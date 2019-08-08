@@ -9,6 +9,7 @@
             font-size: 18px;
             text-decoration: underline;
             font-weight: bold;
+            cursor: pointer;
         }
         img{
             cursor: pointer;
@@ -32,8 +33,9 @@
                 margin-left: 70px;
                 p{
                     font-size: 16px;
-                    font-weight: bold;
+                    font-weight: 600;
                     color: rgb(53, 52, 52);
+                    cursor: pointer;
                 }
                 .userContact{
                     display: flex;
@@ -52,7 +54,7 @@
             .bodyB2{
                 p{
                     font-size: 16px;
-                    font-weight: bold;
+                    font-weight: 550;
                     color: rgb(53, 52, 52);
                 }
                 .phoneNb{
