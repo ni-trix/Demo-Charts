@@ -12,6 +12,7 @@ import { Usercard2Component } from './usercard2/usercard2.component';
 import { Usercard3Component } from './usercard3/usercard3.component';
 import { ListUsersDesktopComponent } from './list-users-desktop/list-users-desktop.component';
 import { UserCardDesktopComponent } from './user-card-desktop/user-card-desktop.component';
+import { FilterListMobileComponent } from './filter-list-mobile/filter-list-mobile.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { UserCardDesktopComponent } from './user-card-desktop/user-card-desktop.
     Usercard3Component,
     ListUsersDesktopComponent,
     UserCardDesktopComponent,
+    FilterListMobileComponent,
   ],
   imports: [
     BrowserModule,
