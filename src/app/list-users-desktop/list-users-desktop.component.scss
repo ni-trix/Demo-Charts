@@ -1,7 +1,14 @@
+#listUsersDesktop{
+    background-color: #EFEEE2;
+    text-align: center;
+
+}
+
 .filters{
     display: flex;
-    background-color: rgb(255, 254, 251);
+    background-color: #eae5d5;
     padding: 25px;
+    padding-left: 15%;
     select{
         margin-left: 10px;
         width: 150px;
@@ -12,9 +19,10 @@
 .headerList{
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
     .selectAll{
         display: flex;
-        margin-left: 70px;
+        margin-left: 20%;
         p{
             font-size: 16px;
             color: rgb(26, 24, 24);

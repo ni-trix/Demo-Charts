@@ -1,11 +1,15 @@
 
 .userCard{
-    border: 2px solid rgb(207, 204, 204);
-    border-left: 5px solid #dc3545;
-    width: 95%;
+    // border: 2px solid rgb(207, 204, 204);
+    border-top: 1px solid rgb(207, 204, 204);
     margin: 0 auto;
     position: relative;
-    animation: mymove 1s;
+    height: 90px;
+    input{
+        margin-left: 5px;
+        position: absolute;
+        top: 50%;
+    }
     .firstLineCard{
         padding-top: 10px;
         display: flex;
@@ -18,9 +22,7 @@
         }
         .userPart{
             display: flex;
-            input{
-                margin-left: 5px;
-            }
+            margin-left: 15px;
             .badge{
                 height: 20px;
                 margin-left: 10px; 
@@ -42,52 +44,27 @@
     }
     .secondLinePart{
         display: flex;
-        justify-content: space-between;
-        padding-left: 5px;
+        justify-content: flex-end;
         .companyPart{
-            margin-left: 10px;
+            position: absolute;
+            left: 30px;
+        }
+        .contactPart{
+            margin-right: 30px;
+            img{
+            margin-left: 15px;
+            }
         }
         h3{
             color: rgb(105, 102, 102);
             font-size: 14px;
-            text-decoration: underline;
             font-weight: bold;
         }
         p{
             margin-top: -5px; 
             font-size: 12px;
         }
-        .iconDropdown{
-            display: flex;
-            flex-direction: column-reverse;
-            margin-right: 5px;
-        }
     }
-    .hiddenPart{
-        margin-top: -15px;
-        hr{
-            width: 80%;
-            border-top: 2px solid rgb(105, 102, 102);;
-        }
-        p{
-            font-size: 12px;
-            margin-top: -10px;
-            margin-left: 5px;
-        }
-        .hiddenPartFooter{
-            display: flex;
-            justify-content: space-between;
-        }
-    }
-}
-
-
-@keyframes mymove {
-    0%   {left: 0px;}
-    40%  {left: 50px;}
-    60% {left: 0px;}
-    80%  {left: 30px;}
-    100% {left: 0px;}
 }
 
 
